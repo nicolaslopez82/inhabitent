@@ -16,9 +16,6 @@ get_header(); ?>
 				<section class="error-404 not-found">
 					<header class="page-header">
 						<h1 class="page-title"><?php echo esc_html( 'Oops! That page can&rsquo;t be found.'  ); ?></h1>
-            <?php $uri = get_template_directory()?>
-            <?php $uri ?>
-            <h1><?php echo $uri?></h1>
 					</header><!-- .page-header -->
 
 					<div class="page-content">

@@ -37,6 +37,7 @@ get_header(); ?>
                 <p> <a href=" <?php echo get_term_link( $product_type ); ?> " class="btn"><?php echo $product_type->name . " stuff"; ?></a> </p>
 
             </li>
+
         <?php endforeach; ?>
         </ul>
 
@@ -52,7 +53,7 @@ get_header(); ?>
                 'posts_per_page' => 3,
                 'order' => 'DESC'
             );
-            $blog_posts = get_posts( $query_args ); // returns an array of posts
+            $blog_posts = get_posts( $query_args ); // returns an array of posts, 24.
         ?>
 
         <?php if ( !empty( $blog_posts ) ) : ?>
