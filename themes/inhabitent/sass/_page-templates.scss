@@ -1,0 +1,198 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+//--- Front page ---//
+.tax-product_type {
+
+    .taxonomy-heading {
+        border-bottom: 1px dashed #c8c8c8;
+        margin-bottom: 3rem;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .site-content {
+        max-width: $max__width;
+        margin: 0 auto;
+        display: block;
+    }
+    .content-area{
+        border: none;
+        width: 100%;
+    }
+    .entry-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 1.5rem;
+        margin-bottom: 5rem;
+
+        .product-post {
+            border: 1px solid #e1e1e1;
+
+            .entry-thumbnail {
+                background-color: #e1e1e1;
+                height: 250px;
+                overflow: hidden;
+                position: relative;
+            }
+            img {
+                left: 50%;
+                max-height: 250px;
+                max-width: none;
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%,-52%);
+                width: auto;
+            }
+        }
+        // .product-info {
+        //     width: 100%;
+        //     padding: .75rem 1rem;
+
+        //     // display: block;
+        //     display: flex;
+        //     justify-content: space-between;
+        //     // align-content: space-between;
+
+        //     h2, span {
+        //         margin: 0 0;
+        //         padding: 0 0;
+
+        //         display: inline;
+
+        //         font-size: 1rem;
+        //         font-weight: normal;
+        //         font-weight: 400;
+        //         font-family: Merriweather Web,serif;
+        //         text-transform: none;
+
+        //         letter-spacing: 0;
+        //         line-height: 1.75;
+        //         text-transform: none;
+
+        //         background: #fff;
+        //     }
+
+        //     h2 {
+        //         padding-right: .25rem;
+        //     }
+        //     span {
+        //         float: right;
+        //         padding-left: .25rem;
+        //         background: #fff;
+        //     }
+        //     h2:before {
+        //         float: left;
+        //         width: 0;
+        //         white-space: nowrap;
+        //         content: "....................................................";
+        //     }
+        // }
+    }
+}
+
+.search-results {
+    .site-content {
+        max-width: $max__width;
+        margin: 0 auto;
+    }
+    .site-main {
+
+        article{
+            padding-top: 2rem;
+
+            &:first-of-type{
+                border-top: 1px dashed #c8c8c8;
+            }
+            &:last-of-type{
+                padding-bottom: 2rem;
+                margin-bottom: 0;
+                border-bottom: 1px dashed #c8c8c8;
+            }
+        }
+    }
+}
+
+.single-products {
+    width: 100%;
+
+    .site-content {
+        max-width: $max__width;
+        margin: 0 auto;
+        display: block;
+    }
+    .content-area {
+        width: 100%;
+        border: none;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
+
+    .thumbnail {
+        width: 50%;
+    }
+
+    .data {
+        width: 45%;
+    }
+
+    h1 {
+        margin-top: 0;
+        color: $color__orange-brand;
+    }
+
+    .price {
+        font-family: Novecento Sans Web,sans-serif;
+        font-size: 28.8px;
+        font-size: 1.5rem;
+        margin-top: 0;
+        text-transform: uppercase;
+    }
+
+    .entry-content{
+        line-height: 1.7;
+    }
+
+    .blank-btn {
+        color: #000;
+
+        border: 1px solid #000;
+        border-radius: 0;
+
+        font-family: Novecento Sans Web,sans-serif;
+        font-size: 14.4px;
+        font-size: .9rem;
+        line-height: 1;
+        padding: .75rem 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        .fab {
+            padding: 0 .4rem;
+        }
+    }
+}
+
+.search-pagination {
+    font-family: Novecento Sans Web,sans-serif;
+    padding: 3.5rem 0;
+    text-transform: uppercase;
+
+    .page-numbers {
+        background-color: #248a83;
+        color: #fff;
+        display: inline-block;
+        line-height: 1;
+        padding: .5rem .75rem;
+        margin-right: .25rem;
+        text-align: center;
+    }
+}
+
+.days-of-week {
+    font-weight: bolder;
+}
