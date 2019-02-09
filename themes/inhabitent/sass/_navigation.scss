@@ -30,6 +30,8 @@ a {
 //--- Menus ---//
 
 .main-navigation {
+	font-family: Novecento Sans Web,sans-serif;
+  text-transform: uppercase;
 	clear: both;
 	display: flex;
 	align-items: center;
@@ -95,8 +97,7 @@ a {
 		display: block;
 		text-decoration: none;
 		text-transform: uppercase;
-
-        color: green;
+		color: green;
 
 		.home &,
 		.about & {
