@@ -3,6 +3,7 @@
 !plugins/
 !themes/
 !uploads/
+!doc-images/
 !README.md
 # Ignore everything in "plugins" except certain plugins. #
 plugins/*
@@ -15,6 +16,7 @@ plugins/*
 !plugins/red-widget-boilerplate-master
 !plugins/inhabitent-functionality/
 !plugins/inhabitent-blocks-master\ 3/
+
 
 
 # Ignore everything in "themes" except the active theme. #
