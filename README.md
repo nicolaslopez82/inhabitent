@@ -56,6 +56,7 @@ This project helped me a lot to improve my PHP 7, WordPress and SASS skill.
 
 This course from Yoney Gallardo YouTube channel was very useful for my me. [Click here](https://www.youtube.com/watch?v=JFJdmHzNwfQ&t=58s) to access to the course.
 Another course that I recommend is this that could be found on Linda.com: [WordPress 5 Essential Training by Morten-Rand-Hendriksen](https://www.lynda.com/WordPress-tutorials/WordPress-5-Essential-Training/651229-2.html). Thank Patricia Moura for the advice for this course.
+
 ----
 
 # **Versioning:**
@@ -64,12 +65,12 @@ Another course that I recommend is this that could be found on Linda.com: [WordP
 
 # **Author:**
 * Nicolas Lopez - nicolaslopez82.
-* Thank you to
 ----
 
 # **Contributing:**
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate.
+
 ----
 
 # **License:**
